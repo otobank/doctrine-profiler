@@ -30,6 +30,7 @@ class EntityManager extends ORM\EntityManager
 
     /**
      * {@inheritdoc}
+     * @phpstan-return EntityManager
      */
     public static function create($conn, ORM\Configuration $config, EventManager $eventManager = null)
     {
