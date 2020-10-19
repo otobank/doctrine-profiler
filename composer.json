@@ -1,0 +1,16 @@
+{
+    "name": "otobank/doctrine-profiler",
+    "description": "a fork of pixers/PixersDoctrineProfilerBundle",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.1",
+        "doctrine/orm": "~2.5",
+        "symfony/stopwatch": "~2.8 || ~3.4 || ~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Otobank\\Doctrine\\Profiler\\": "src/"
+        }
+    }
+}
