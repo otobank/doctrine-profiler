@@ -111,7 +111,7 @@ class Node implements \RecursiveIterator
             }
         }
 
-        $node = new static($trace, $this);
+        $node = new self($trace, $this);
 
         return $node;
     }

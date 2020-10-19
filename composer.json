@@ -12,5 +12,13 @@
         "psr-4": {
             "Otobank\\Doctrine\\Profiler\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.50"
+    },
+    "scripts": {
+        "analyse": [
+            "phpstan analyse src"
+        ]
     }
 }

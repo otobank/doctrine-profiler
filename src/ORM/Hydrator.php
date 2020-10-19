@@ -146,6 +146,6 @@ class Hydrator extends AbstractHydrator
         $this->stopWatch->start($this->getStopWatchName());
         $this->logger->startHydration($this->hydrator, $this->_stmt, $this->_rsm);
 
-        return parent::prepare();
+        parent::prepare();
     }
 }

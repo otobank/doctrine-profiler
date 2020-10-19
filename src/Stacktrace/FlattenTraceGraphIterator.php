@@ -17,7 +17,7 @@ class FlattenTraceGraphIterator extends \ArrayIterator implements \RecursiveIter
      */
     public function getChildren()
     {
-        return new static($this->getFlattenChildren($this->current()));
+        return new self($this->getFlattenChildren($this->current()));
     }
 
     /**
